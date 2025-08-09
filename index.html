@@ -14,22 +14,25 @@
     <!-- Header tối ưu cho mobile -->
     <header class="bg-primary text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-           <div class="flex items-center">
-  <!-- Thay thế icon bằng logo -->
-  <img src="images/logo.jpg" alt="Vạn Sự Thông Travel Logo" class="h-10 md:h-12 mr-2 object-contain">
-  <h1 class="text-xl md:text-2xl font-bold">VST Travel</h1>
-</div>
-            <nav class="hidden md:flex space-x-4 lg:space-x-6">
-                <a href="#home" class="hover:text-yellow-200 px-2 py-1 rounded transition">Trang chủ</a>
-                <a href="#tours" class="hover:text-yellow-200 px-2 py-1 rounded transition">Tour</a>
-                <a href="#gallery" class="hover:text-yellow-200 px-2 py-1 rounded transition">Hình ảnh</a>
-                <a href="#food" class="hover:text-yellow-200 px-2 py-1 rounded transition">Ẩm thực</a>
-                <a href="#contact" class="hover:text-yellow-200 px-2 py-1 rounded transition">Liên hệ</a>
+            <div class="flex items-center">
+                <div class="flex items-center">
+                    <!-- Thay thế icon bằng logo -->
+                    <img src="images/logo.jpg" alt="Vạn Sự Thông Travel Logo" class="h-10 md:h-12 mr-2 object-contain">
+                    <h1 class="text-xl md:text-2xl font-bold">VST Travel</h1>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:text-yellow-300">Trang chủ</a>
+                <a href="#tours" class="hover:text-yellow-300">Tour</a>
+                <a href="#services" class="hover:text-yellow-300">Dịch vụ</a>
+                <a href="#contact" class="hover:text-yellow-300">Liên hệ</a>
             </nav>
-            <button class="md:hidden text-2xl focus:outline-none" id="menu-toggle" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
+            <a href="tel:0876456888"
+                class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-full text-sm flex items-center">
+                <i class="fas fa-phone-alt mr-2"></i>0876 456 888
+            </a>
         </div>
+
 
         <!-- Menu mobile được tối ưu -->
         <div class="mobile-menu bg-primary-dark md:hidden" id="mobile-menu">
@@ -50,7 +53,7 @@
     </header>
 
     <!-- Hero Slider Section -->
-    <section id="home" class="hero-slider flex items-center justify-center text-white text-center px-4 mobile-padding">
+    <section id="home" class="hero-slider flex items-center h-screen  justify-center text-white text-center px-4 mobile-padding ">
         <!-- Slide 1 -->
         <div class="hero-slide active"
             style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
@@ -60,16 +63,13 @@
                         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 mobile-optimized-text">
                         Khám phá vẻ đẹp Trung Hoa</h1>
                     <p class="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 mobile-optimized-text">Dịch vụ du lịch Trung
-                        Quốc chuyên nghiệp - Visa - Sim - Tour trọn gói</p>
+                        Quốc chuyên nghiệp - Tour trọn gói</p>
                     <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
                         <a href="#tours"
                             class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg transition duration-300 shadow-md hover:shadow-lg">
                             <i class="fas fa-map-marked-alt mr-2"></i>Xem tour ngay
                         </a>
-                        <a href="tel:0397551688"
-                            class="border border-green-600 text-green-600 hover:bg-green-50 py-2 px-4 rounded-lg">
-                            <i class="fas fa-phone-alt mr-2"></i> Gọi tư vấn
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -101,14 +101,14 @@
 
         <!-- Slide 3 -->
         <div class="hero-slide"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('vstimage/z6859775496543_e86451f2730c0df3f5dfbb0c1017b58e.jpg')">
             <div class="container mx-auto h-full flex items-center justify-center">
                 <div>
                     <h1
                         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 mobile-optimized-text">
-                        Thượng Hải hiện đại</h1>
-                    <p class="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 mobile-optimized-text">Khám phá thành phố phồn
-                        hoa bậc nhất Trung Quốc</p>
+                        Nam Ninh cổ trấn</h1>
+                    <p class="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 mobile-optimized-text">Khám phá thành phố được
+                        mệnh danh là TIỂU PHƯỢNG HOÀNG CỔ TRẤN</p>
                     <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
                         <a href="#tours"
                             class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full text-sm sm:text-lg transition duration-300 shadow-md hover:shadow-lg">
@@ -157,9 +157,9 @@
                             class="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-100 text-green-600">
                             <i class="fas fa-passport text-2xl"></i>
                         </div>
-                        <h3 class="text-lg sm:text-xl font-bold mb-3">Visa Trung Quốc</h3>
-                        <p class="text-gray-600 text-sm sm:text-base">Xử lý nhanh chóng, tỷ lệ đậu cao với chi phí cạnh
-                            tranh nhất thị trường.</p>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3">Làm hộ chiếu</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Xử lý nhanh chóng, lấy sau 15-25 ngày, 280.000
+                            VNĐ/ 1 Sổ</p>
                     </div>
                 </div>
 
@@ -169,11 +169,11 @@
                     <div class="text-center">
                         <div
                             class="inline-flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-100 text-green-600">
-                            <i class="fas fa-sim-card text-2xl"></i>
+                            <i class="fa fa-user text-2xl"></i>
                         </div>
-                        <h3 class="text-lg sm:text-xl font-bold mb-3">Sim Trung Quốc</h3>
-                        <p class="text-gray-600 text-sm sm:text-base">Sim 4G tốc độ cao, hỗ trợ đổi tiền, giao sim tận
-                            nơi trước chuyến đi.</p>
+                        <h3 class="text-lg sm:text-xl font-bold mb-3">Phiên dịch viên</h3>
+                        <p class="text-gray-600 text-sm sm:text-base">Có phiên dịch viên Việt - Trung chuyên nghiệp tận
+                            tình</p>
                     </div>
                 </div>
 
@@ -187,7 +187,7 @@
                         </div>
                         <h3 class="text-lg sm:text-xl font-bold mb-3">Tour du lịch</h3>
                         <p class="text-gray-600 text-sm sm:text-base">Tour chất lượng cao với hướng dẫn viên chuyên
-                            nghiệp, lịch trình hợp lý.</p>
+                            nghiệp</p>
                     </div>
                 </div>
             </div>
@@ -198,29 +198,26 @@
         <div class="container mx-auto px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-gray-800">Tour phổ biến</h2>
 
-            <div class="tour-slide-container rounded-xl overflow-hidden shadow-2xl ">
-                <!-- Tour 1 - Vạn Lý Trường Thành -->
+            <div class="tour-slide-container rounded-xl overflow-hidden shadow-2xl">
+                <!-- Tour - Nam Ninh – Thái Bình Cổ Trấn -->
                 <div class="tour-slide active"
-                    style="background-image: url('https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
+                    style="background-image: url('vstimage/z6859776000036_0554ee65205e2d4a0072a79c5ec24cb9.jpg')">
                     <div class="tour-overlay">
                         <div class="tour-content">
                             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                 <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold mb-2">Vạn Lý Trường Thành</h3>
-                                    <p class="text-xl md:text-2xl mb-4">5 ngày 4 đêm - Khám phá kỳ quan thế giới</p>
+                                    <h3 class="text-3xl md:text-4xl font-bold mb-2">Nam Ninh – Thái Bình Cổ Trấn</h3>
+                                    <p class="text-xl md:text-2xl mb-4">3 ngày 2 đêm / Ô tô</p>
                                     <div class="flex items-center mb-6">
-                                        <span class="text-2xl md:text-3xl font-bold mr-4">12.990.000₫</span>
+                                        <span class="text-2xl md:text-3xl font-bold mr-4">3.290.000 VNĐ</span>
                                         <span class="bg-yellow-500 text-black px-3 py-1 rounded-full text-sm">BEST
                                             SELLER</span>
                                     </div>
-                                    <div class="flex flex-wrap gap-3">
-                                        <a href="https://zalo.me/0397551688"
-                                            class="bg-white text-primary font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-gray-100 transition">
-                                            <i class="fab fa-zalo mr-2"></i> Chat ngay
-                                        </a>
-                                        <a href="tel:0397551688"
-                                            class="border-2 border-white text-white font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-white hover:text-primary transition">
-                                            <i class="fas fa-phone-alt mr-2"></i> Gọi tư vấn
+                                    <div class="flex flex-wrap gap-3 mb-4">
+                                    
+                                        <a href="/namninh.pdf" download
+                                            class="bg-green-500 text-white font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-green-600 transition">
+                                            <i class="fas fa-file-download mr-2"></i> Chi tiết
                                         </a>
                                     </div>
                                 </div>
@@ -229,173 +226,36 @@
                                     <ul class="space-y-2">
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Tham quan đoạn Trường Thành nổi tiếng nhất tại Bắc Kinh</span>
+                                            <span>Khám phá Sùng Tả – Thái Bình Cổ Trấn “Tiểu Phượng Hoàng”</span>
                                         </li>
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Trải nghiệm đi cáp treo lên Trường Thành</span>
+                                            <span>Tham quan Công viên Thanh Tú Sơn – “Lá phổi xanh” của Nam Ninh</span>
                                         </li>
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Thưởng thức ẩm thực địa phương đặc sắc</span>
+                                            <span>Check-in Ung Châu Cổ Trấn – phố Tam Ngõ Nhị</span>
                                         </li>
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Hướng dẫn viên am hiểu lịch sử, nhiệt tình</span>
+                                            <span>Thưởng thức ẩm thực đặc sắc tại Nam Ninh Chi Dạ</span>
                                         </li>
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Khách sạn 4 sao tiêu chuẩn quốc tế</span>
+                                            <span>Trải nghiệm phim trường Tương Tư Hồ Trấn</span>
                                         </li>
                                         <li class="flex items-start">
                                             <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Bảo hiểm du lịch toàn diện</span>
+                                            <span>Khách sạn 3-4 sao, bảo hiểm du lịch</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Tour 2 - Tử Cấm Thành -->
-                <div class="tour-slide"
-                    style="background-image: url('https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1492&q=80')">
-                    <div class="tour-overlay">
-                        <div class="tour-content">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold mb-2">Tử Cấm Thành</h3>
-                                    <p class="text-xl md:text-2xl mb-4">4 ngày 3 đêm - Di sản văn hóa thế giới</p>
-                                    <div class="flex items-center mb-6">
-                                        <span class="text-2xl md:text-3xl font-bold mr-4">10.990.000₫</span>
-                                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">CULTURAL
-                                            TOUR</span>
-                                    </div>
-                                    <div class="flex flex-wrap gap-3">
-                                        <a href="https://zalo.me/0397551688"
-                                            class="bg-white text-primary font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-gray-100 transition">
-                                            <i class="fab fa-zalo mr-2"></i> Chat ngay
-                                        </a>
-                                        <a href="tel:0397551688"
-                                            class="border-2 border-white text-white font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-white hover:text-primary transition">
-                                            <i class="fas fa-phone-alt mr-2"></i> Gọi tư vấn
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tour-highlights">
-                                    <h4 class="text-xl font-bold mb-3">Điểm nổi bật:</h4>
-                                    <ul class="space-y-2">
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Tham quan toàn bộ khu Tử Cấm Thành rộng lớn</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Tìm hiểu về lịch sử các triều đại Trung Quốc</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Xem biểu diễn nghệ thuật truyền thống</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Thưởng thức món vịt quay Bắc Kinh nổi tiếng</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Hướng dẫn viên tiếng Việt am hiểu</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Vé tham quan tất cả các điểm du lịch</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tour 3 - Thượng Hải -->
-                <div class="tour-slide"
-                    style="background-image: url('https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
-                    <div class="tour-overlay">
-                        <div class="tour-content">
-                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                <div>
-                                    <h3 class="text-3xl md:text-4xl font-bold mb-2">Thượng Hải</h3>
-                                    <p class="text-xl md:text-2xl mb-4">6 ngày 5 đêm - Thành phố hiện đại bậc nhất</p>
-                                    <div class="flex items-center mb-6">
-                                        <span class="text-2xl md:text-3xl font-bold mr-4">15.990.000₫</span>
-                                        <span class="bg-red-500 text-white px-3 py-1 rounded-full text-sm">HOT
-                                            DEAL</span>
-                                    </div>
-                                    <div class="flex flex-wrap gap-3">
-                                        <a href="https://zalo.me/0397551688"
-                                            class="bg-white text-primary font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-gray-100 transition">
-                                            <i class="fab fa-zalo mr-2"></i> Chat ngay
-                                        </a>
-                                        <a href="tel:0397551688"
-                                            class="border-2 border-white text-white font-bold py-3 px-6 rounded-lg inline-flex items-center hover:bg-white hover:text-primary transition">
-                                            <i class="fas fa-phone-alt mr-2"></i> Gọi tư vấn
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tour-highlights">
-                                    <h4 class="text-xl font-bold mb-3">Điểm nổi bật:</h4>
-                                    <ul class="space-y-2">
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Tham quan Tháp truyền hình Minh Châu Phương Đông</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Dạo chơi tại khu phố cổ Thành Hoàng Miếu</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Mua sắm tại phố đi bộ Nam Kinh nổi tiếng</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Ngắm toàn cảnh thành phố từ tòa nhà cao tầng</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Trải nghiệm ẩm thực đường phố đặc sắc</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <i class="fas fa-check-circle mt-1 mr-2"></i>
-                                            <span>Du thuyền ngắm cảnh đêm trên sông Hoàng Phố</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slider controls -->
-                <button
-                    class="absolute left-4 top-1/2 transform -translate-y-1/2 slider-nav rounded-full w-10 h-10 flex items-center justify-center text-white text-xl z-10"
-                    id="tour-prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button
-                    class="absolute right-4 top-1/2 transform -translate-y-1/2 slider-nav rounded-full w-10 h-10 flex items-center justify-center text-white text-xl z-10"
-                    id="tour-next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-
-                <!-- Slider indicators -->
-                <div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2 z-10">
-                    <button class="w-3 h-3 rounded-full bg-white opacity-50 tour-indicator active"
-                        data-index="0"></button>
-                    <button class="w-3 h-3 rounded-full bg-white opacity-50 tour-indicator" data-index="1"></button>
-                    <button class="w-3 h-3 rounded-full bg-white opacity-50 tour-indicator" data-index="2"></button>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -419,13 +279,13 @@
                 </a>
                 <a href="#"
                     class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
-                    <img src="https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="vstimage/z6859767477224_bcddac425b93bf15ffb069c41e445af4.jpg"
                         alt="Thượng Hải"
                         class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
                 </a>
                 <a href="#"
                     class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
-                    <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="vstimage/z6859775703379_5b6e14bac8c02a35d7b0c359b60a7d59.jpg"
                         alt="Phong cảnh Trung Quốc"
                         class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
                 </a>
@@ -437,7 +297,7 @@
                 </a>
                 <a href="#"
                     class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
-                    <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1494&q=80"
+                    <img src="vstimage/z6859775974049_e0081a6e0b7b0bb4fa3033522b60196f.jpg"
                         alt="Nghệ thuật Trung Quốc"
                         class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
                 </a>
@@ -449,7 +309,7 @@
                 </a>
                 <a href="#"
                     class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
-                    <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="vstimage/z6859775612979_601c9fb081688b1e2f00bf00135e0101.jpg"
                         alt="Đường phố Trung Quốc"
                         class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
                 </a>
@@ -518,74 +378,104 @@
                             ngon.</p>
                     </div>
                 </div>
+                 <a href="#"
+                    class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
+                    <img src="vstimage/z6859775737310_8d0d0fd24b063d96fcf922ac6ab23d87.jpg"
+                        alt="Nghệ thuật Trung Quốc"
+                        class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
+                </a>
+                <a href="#"
+                    class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
+                    <img src="vstimage/z6859775815157_6f20437771ffdaae2fcaf5e50a0cbd71.jpg"
+                        alt="Văn hóa Trung Quốc"
+                        class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
+                </a>
+                <a href="#"
+                    class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
+                    <img src="vstimage/z6859775922997_06f72f7edbd85654e8544175f3849691.jpg"
+                        alt="Đường phố Trung Quốc"
+                        class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
+                </a>
+                <a href="#"
+                    class="block overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all hover-scale">
+                    <img src="vstimage/z6859775981921_0e7f3b7fc631d20195dd9c012e12301a.jpg"
+                        alt="Đường phố Trung Quốc"
+                        class="w-full h-40 sm:h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-110">
+                </a>
             </div>
         </div>
     </section>
-<section class="py-12 bg-gray-50">
-<div class="container mx-auto px-4 py-12">
-  <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Khoảnh khắc du lịch đáng nhớ</h2>
-  
-  <!-- Hàng 1 -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-    <!-- Ảnh 1 -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002202.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Đoàn Thượng Hải 2023</p>
-      </div>
-    </div>
-    
-    <!-- Ảnh 2 -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002203.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Kỷ niệm vui vẻ</p>
-      </div>
-    </div>
-    
-    <!-- Ảnh 3 -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002204.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Trải nghiệm tuyệt vời</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Hàng 2 -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <!-- Ảnh 4 -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002205.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Gắn kết yêu thương</p>
-      </div>
-    </div>
-    
-    <!-- Ảnh 5 -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002206.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Những người bạn mới</p>
-      </div>
-    </div>
-    
-    <!-- Ảnh 6 mới thêm -->
-    <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
-      <img src="images/1000002207.jpg" alt="Nhóm du lịch" 
-           class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
-        <p class="text-white font-medium">Hành trình mới 2024</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Khoảnh khắc du lịch đáng nhớ</h2>
+
+            <!-- Hàng 1 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+                <!-- Ảnh 1 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002202.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Đoàn Thượng Hải 2023</p>
+                    </div>
+                </div>
+
+                <!-- Ảnh 2 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002203.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Kỷ niệm vui vẻ</p>
+                    </div>
+                </div>
+
+                <!-- Ảnh 3 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002204.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Trải nghiệm tuyệt vời</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hàng 2 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Ảnh 4 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002205.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Gắn kết yêu thương</p>
+                    </div>
+                </div>
+
+                <!-- Ảnh 5 -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002206.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Những người bạn mới</p>
+                    </div>
+                </div>
+
+                <!-- Ảnh 6 mới thêm -->
+                <div class="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all h-64">
+                    <img src="images/1000002207.jpg" alt="Nhóm du lịch"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end p-4 opacity-0 group-hover:opacity-100 transition">
+                        <p class="text-white font-medium">Hành trình mới 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Testimonials - Responsive -->
     <section class="py-12 md:py-16 bg-primary text-white mobile-padding tablet-adjust">
         <div class="container mx-auto">
@@ -608,7 +498,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-sm sm:text-base">"Dịch vụ làm visa rất nhanh chóng, nhân viên tư vấn nhiệt tình. Tour
+                    <p class="text-sm sm:text-base">"Dịch vụ làm hộ chiếu rất nhanh chóng, nhân viên tư vấn nhiệt tình. Tour
                         đi Vạn Lý Trường Thành rất tuyệt vời, hướng dẫn viên am hiểu và thân thiện."</p>
                 </div>
 
@@ -656,77 +546,80 @@
             </div>
         </div>
     </section>
-    
-    <!-- Contact Section - Chỉ liên hệ qua Zalo/Facebook -->
-    <section id="contact" class="py-12 md:py-16 bg-white mobile-padding tablet-adjust">
-        <div class="container mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-gray-800 mobile-center">Liên hệ đặt
-                tour</h2>
-            <div class="max-w-3xl mx-auto">
-                <div class="space-y-6">
-                    <!-- Zalo contact -->
-                    <div class="flex flex-col sm:flex-row items-start bg-gray-50 p-6 rounded-lg shadow-sm">
-                        <div class="bg-blue-100 p-4 rounded-full mr-6 mb-4 sm:mb-0">
-                            <i class="fab fa-zalo text-blue-600 text-3xl"></i>
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="text-xl font-bold mb-2">Liên hệ qua Zalo</h3>
-                            <p class="mb-4 text-gray-600">Nhắn tin trực tiếp với chúng tôi qua Zalo để được tư vấn nhanh
-                                chóng và hỗ trợ 24/7</p>
-                            <a href="https://zalo.me/0397551688"
-                                class="zalo-button text-white py-3 px-6 rounded-lg inline-flex items-center text-lg">
-                                <i class="fab fa-zalo mr-3"></i> Nhắn tin ngay qua Zalo
-                            </a>
-                        </div>
-                    </div>
 
-                    <!-- Facebook contact -->
-                    <div class="flex flex-col sm:flex-row items-start bg-gray-50 p-6 rounded-lg shadow-sm">
-                        <div class="bg-blue-100 p-4 rounded-full mr-6 mb-4 sm:mb-0">
-                            <i class="fab fa-facebook-f text-blue-600 text-3xl"></i>
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="text-xl font-bold mb-2">Liên hệ qua Facebook</h3>
-                            <p class="mb-4 text-gray-600">Theo dõi fanpage và nhắn tin qua Messenger để xem thêm hình
-                                ảnh và đánh giá từ khách hàng</p>
-                            <a href="https://www.facebook.com"
-                                class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg inline-flex items-center text-lg">
-                                <i class="fab fa-facebook-messenger mr-3"></i> Messenger
-                            </a>
-                        </div>
-                    </div>
+<!-- Contact Section -->
+<section id="contact" class="py-12 md:py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-800">Liên hệ đặt tour</h2>
+        
+        <div class="max-w-5xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            
+            <!-- Cột trái: QR Zalo -->
+            <div class="text-center">
+                <h3 class="text-lg font-bold mb-4">Quét mã QR để kết nối Zalo</h3>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://zalo.me/0397551688"
+                     alt="Zalo QR Code" class="mx-auto w-44 h-44 mb-4 rounded-lg border border-gray-200">
+                <p class="text-gray-600 text-sm">Hoặc nhấn nút "Nhắn tin ngay" bên cạnh</p>
+            </div>
 
-                    <!-- Address -->
-                    <div class="flex flex-col sm:flex-row items-start bg-gray-50 p-6 rounded-lg shadow-sm">
-                        <div class="bg-green-100 p-4 rounded-full mr-6 mb-4 sm:mb-0">
-                            <i class="fas fa-map-marker-alt text-green-600 text-3xl"></i>
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="text-xl font-bold mb-2">Đến văn phòng của chúng tôi</h3>
-                            <p class="mb-2 text-gray-600">Vạn Sự Thông Travel, Lạng Sơn</p>
-                            <p class="text-gray-600"><i class="fas fa-phone-alt mr-2"></i> 0397551688 (Mr. Duy)</p>
-                        </div>
-                    </div>
+            <!-- Cột phải: Thông tin liên hệ -->
+            <div class="space-y-6">
 
-                    <!-- Zalo QR Code -->
-                    <div class="mt-8 bg-gray-50 p-8 rounded-lg text-center shadow-sm">
-                        <h3 class="text-xl font-bold mb-4">Quét mã QR để kết nối Zalo</h3>
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://zalo.me/0397551688"
-                            alt="Zalo QR Code" class="mx-auto w-40 h-40 mb-4">
-                        <p class="text-gray-600">Hoặc nhấn nút "Nhắn tin ngay qua Zalo" bên trên</p>
+                <!-- Zalo contact -->
+                <div class="flex items-start">
+                    <div class="bg-blue-100 p-4 rounded-full mr-4 flex-shrink-0">
+                        <i class="fab fa-zalo text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-1">Liên hệ qua Zalo</h3>
+                        <p class="mb-2 text-gray-600 text-sm">Nhắn tin trực tiếp để được tư vấn nhanh chóng 24/7.</p>
+                        <a href="https://zalo.me/0397551688" 
+                           class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg inline-flex items-center text-sm font-medium">
+                            <i class="fab fa-zalo mr-2"></i> Nhắn tin ngay
+                        </a>
                     </div>
                 </div>
+
+                <!-- Facebook contact -->
+                <div class="flex items-start">
+                    <div class="bg-blue-100 p-4 rounded-full mr-4 flex-shrink-0">
+                        <i class="fab fa-facebook-f text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-1">Liên hệ qua Facebook</h3>
+                        <p class="mb-2 text-gray-600 text-sm">Theo dõi fanpage và nhắn tin qua Messenger.</p>
+                        <a href="https://www.facebook.com" 
+                           class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg inline-flex items-center text-sm font-medium">
+                            <i class="fab fa-facebook-messenger mr-2"></i> Messenger
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="flex items-start">
+                    <div class="bg-green-100 p-4 rounded-full mr-4 flex-shrink-0">
+                        <i class="fas fa-map-marker-alt text-green-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-1">Địa chỉ văn phòng</h3>
+                        <p class="mb-1 text-gray-600 text-sm">Vạn Sự Thông Travel, Lạng Sơn</p>
+                        <p class="text-gray-600 text-sm"><i class="fas fa-phone-alt mr-1"></i> 0397 551 688 (Mr. Duy)</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
-
-    <!-- Floating Zalo button for mobile -->
-    <div class="fixed bottom-6 right-6 z-40 md:hidden">
-        <a href="https://zalo.me/0397551688"
-            class="zalo-button flex items-center justify-center w-14 h-14 rounded-full shadow-lg text-white text-2xl">
-            <i class="fab fa-zalo"></i>
-        </a>
     </div>
+</section>
+
+<!-- Floating Zalo button (mobile only) -->
+<div class="fixed bottom-6 right-6 z-40 md:hidden">
+    <a href="https://zalo.me/0397551688"
+       class="bg-blue-500 hover:bg-blue-600 flex items-center justify-center w-14 h-14 rounded-full shadow-lg text-white text-2xl">
+        <i class="fab fa-zalo"></i>
+    </a>
+</div>
+
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 mobile-padding">
@@ -735,7 +628,7 @@
                 <div class="md:w-1/3">
                     <h3 class="text-xl font-bold mb-4">Vạn Sự Thông Travel</h3>
                     <p class="mb-2 text-sm text-gray-300">Dịch vụ du lịch Trung Quốc chuyên nghiệp</p>
-                    <p class="text-sm text-gray-300">Visa - Sim - Tour trọn gói</p>
+                    <p class="text-sm text-gray-300">Hộ Chiếu - Tour trọn gói</p>
                 </div>
                 <div class="md:w-1/3">
                     <h3 class="text-xl font-bold mb-4">Liên kết nhanh</h3>
