@@ -144,7 +144,7 @@
     </section>
 
     <!-- Services Section responsive -->
-    <section class="py-12 md:py-16 bg-white mobile-padding tablet-adjust">
+    <section id="services" class="py-12 md:py-16 bg-white mobile-padding tablet-adjust">
         <div class="container mx-auto">
             <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-gray-800 mobile-center">Dịch vụ của
                 chúng tôi</h2>
@@ -536,63 +536,50 @@
 <!-- Contact Section -->
 <section id="contact" class="py-12 md:py-16 bg-white">
     <div class="container mx-auto px-4">
-        <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-800">Liên hệ đặt tour</h2>
-        
-        <div class="max-w-5xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-800">
+            Liên hệ đặt tour
+        </h2>
+
+        <div class="max-w-6xl mx-auto bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-md transition grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            <!-- Cột trái: QR Zalo -->
-            <div class="text-center">
-                <h3 class="text-lg font-bold mb-4">Quét mã QR để kết nối Zalo</h3>
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://zalo.me/0397551688"
-                     alt="Zalo QR Code" class="mx-auto w-44 h-44 mb-4 rounded-lg border border-gray-200">
-                <p class="text-gray-600 text-sm">Hoặc nhấn nút "Nhắn tin ngay" bên cạnh</p>
+            <!-- Cột trái: QR + Nút liên hệ -->
+            <div class="flex flex-col items-center space-y-6">
+                <!-- QR Zalo -->
+                <div class="text-center">
+                    <h3 class="text-lg font-bold mb-4">Quét mã QR để kết nối Zalo</h3>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://zalo.me/0397551688"
+                         alt="Zalo QR Code" class="mx-auto w-44 h-44 mb-4 rounded-lg border border-gray-200">
+                    <p class="text-gray-600 text-sm">Hoặc nhấn nút liên hệ bên dưới</p>
+                </div>
+
+                <!-- Nút liên hệ -->
+                <div class="flex flex-col w-full space-y-3">
+                    <a href="https://zalo.me/0397551688" 
+                       class="bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg flex items-center justify-center text-sm font-medium shadow">
+                        <i class="fab fa-zalo mr-2"></i> Nhắn tin Zalo
+                    </a>
+                    <a href="https://www.facebook.com/share/1LKjoxBV96/?mibextid=wwXIfr" 
+                       class="bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg flex items-center justify-center text-sm font-medium shadow">
+                        <i class="fab fa-facebook-messenger mr-2"></i> Messenger
+                    </a>
+                </div>
             </div>
 
-            <!-- Cột phải: Thông tin liên hệ -->
+            <!-- Cột phải: Bản đồ + Địa chỉ -->
             <div class="space-y-6">
-
-                <!-- Zalo contact -->
-                <div class="flex items-start">
-                    <div class="bg-blue-100 p-4 rounded-full mr-4 flex-shrink-0">
-                        <i class="fab fa-zalo text-blue-600 text-2xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-bold mb-1">Liên hệ qua Zalo</h3>
-                        <p class="mb-2 text-gray-600 text-sm">Nhắn tin trực tiếp để được tư vấn nhanh chóng 24/7.</p>
-                        <a href="https://zalo.me/0397551688" 
-                           class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg inline-flex items-center text-sm font-medium">
-                            <i class="fab fa-zalo mr-2"></i> Nhắn tin ngay
-                        </a>
-                    </div>
+                <!-- Google Map -->
+                <div class="rounded-lg overflow-hidden shadow">
+                    <iframe src="https://www.google.com/maps?q=số%201%20Ngô%20Thì%20Sỹ,%20phường%20Tam%20Thanh,%20Lạng%20Sơn&output=embed" 
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
 
-                <!-- Facebook contact -->
-                <div class="flex items-start">
-                    <div class="bg-blue-100 p-4 rounded-full mr-4 flex-shrink-0">
-                        <i class="fab fa-facebook-f text-blue-600 text-2xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-bold mb-1">Liên hệ qua Facebook</h3>
-                        <p class="mb-2 text-gray-600 text-sm">Theo dõi fanpage và nhắn tin qua Messenger.</p>
-                        <a href="https://www.facebook.com" 
-                           class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg inline-flex items-center text-sm font-medium">
-                            <i class="fab fa-facebook-messenger mr-2"></i> Messenger
-                        </a>
-                    </div>
+                <!-- Thông tin -->
+                <div class="bg-white p-4 rounded-lg shadow space-y-2">
+                    <h3 class="text-lg font-bold">Địa chỉ văn phòng</h3>
+                    <p class="text-gray-600 text-sm">Vạn Sự Thông Travel</p>
+                    <p class="text-gray-600 text-sm">Số 1 Ngô Thì Sỹ, phường Tam Thanh, Lạng Sơn</p>
+                    <p class="text-gray-600 text-sm"><i class="fas fa-phone-alt mr-1"></i> 0397 551 688 (Mr. Duy)</p>
                 </div>
-
-                <!-- Address -->
-                <div class="flex items-start">
-                    <div class="bg-green-100 p-4 rounded-full mr-4 flex-shrink-0">
-                        <i class="fas fa-map-marker-alt text-green-600 text-2xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-bold mb-1">Địa chỉ văn phòng</h3>
-                        <p class="mb-1 text-gray-600 text-sm">Vạn Sự Thông Travel, Lạng Sơn</p>
-                        <p class="text-gray-600 text-sm"><i class="fas fa-phone-alt mr-1"></i> 0397 551 688 (Mr. Duy)</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -629,7 +616,7 @@
                 <div class="md:w-1/3">
                     <h3 class="text-xl font-bold mb-4">Kết nối với chúng tôi</h3>
                     <div class="flex space-x-4 mb-4">
-                        <a href="https://www.facebook.com"
+                        <a href="https://www.facebook.com/share/1LKjoxBV96/?mibextid=wwXIfr"
                             class="text-gray-300 hover:text-blue-400 text-xl transition"><i
                                 class="fab fa-facebook"></i></a>
                         <a href="https://zalo.me/0397551688"
@@ -638,8 +625,7 @@
                                 class="fab fa-youtube"></i></a>
                     </div>
                     <p class="text-sm text-gray-300 mb-2"><i class="fas fa-phone-alt mr-2"></i> 0397551688 (Mr. Duy)</p>
-                    <p class="text-sm text-gray-300"><i class="fas fa-map-marker-alt mr-2"></i> Vạn Sự Thông Travel,
-                        Lạng Sơn</p>
+                    <p class="text-sm text-gray-300"><i class="fas fa-map-marker-alt mr-2"></i> Số 1 Ngô Thì Sỹ, phường Tam Thanh, Lạng Sơn </p>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-400">
